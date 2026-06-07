@@ -332,7 +332,7 @@ def main():
     app.add_handler(CallbackQueryHandler(check_join_callback, pattern="^check_join$"))
 
     print("🤖 ربات روشن شد...")
-    app.run_polling()
+    app.run_polling(drop_pending_updates=True)
 
 if __name__ == "__main__":
     main()
