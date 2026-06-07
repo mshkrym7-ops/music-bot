@@ -24,17 +24,17 @@ from telegram.ext import (
 # =====================
 # تنظیمات - اینجا رو پر کن
 # =====================
-BOT_TOKEN = "TOKEN_خودت_رو_اینجا_بذار"
-ADMIN_ID = 123456789  # آیدی عددی خودت (از @userinfobot بگیر)
+BOT_TOKEN ="8964320269:AAEvkTH19LjpyB2I6T0tO2mHJ8gXVHdo1rQ"
+ADMIN_ID = 7330212223  # آیدی عددی خودت (از @userinfobot بگیر)7330212223
 STORAGE_FILE = "songs.json"  # فایل ذخیره آهنگ‌ها
 
 # =====================
 # تنظیمات Force Join
 # =====================
 # آیدی کانالت رو اینجا بذار — مثلاً: "@mychannel" یا -1001234567890
-CHANNEL_ID = "@your_channel"
+CHANNEL_ID ="@joinmypath"
 # لینک کانال برای نمایش به کاربر
-CHANNEL_LINK = "https://t.me/your_channel"
+CHANNEL_LINK ="https://t.me/joinMypath"
 
 # =====================
 # دسته‌بندی‌ها
